@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Quiz App</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Question 2</h1>
+        <h1>Score 0/10</h1>
+        <img class="replacePic" src="League.jpg"> 
+        <form id="quiz-app-form">
+            <div class="question">
+                <h2>Which of these is a champion in League of Legends?</h2>
+            </div>
+            <div class="answers">
+                <h3 id="questionA">A:McCree</h3> <input type="radio" name="answer" value="A:McCree">
+                <h3 id="questionB">B:Tylander</h3><input type="radio" name="answer" value="B:Tylander">
+                <h3 id="questionC">C:Annie</h3><input type="radio" name="answer" value="C:Annie">
+                <h3 id="questionD">D:Artemis</h3>   <input type="radio" name="answer" value="D:Artemis">
+            </div>
+
+            </div>
+            <button type="Submit">Submit</button>
+        </form>
+        <ul class="quiz-app quiz-app-form">
+        </ul>
+    </div>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cuid/1.3.8/browser-cuid.min.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
